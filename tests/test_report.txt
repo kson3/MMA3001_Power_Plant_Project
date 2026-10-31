@@ -1,0 +1,18 @@
+MMA3001 Power Plant Project - Unit Test Report
+Command: python -m pytest tests -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/MMA3001_Power_Plant_Project-main
+plugins: typeguard-4.6.0, anyio-4.15.1, langsmith-0.14.13, platformdirs-4.13.6
+collecting ... collected 4 items
+
+tests/test_power_plant.py::test_load_and_clean_data PASSED               [ 25%]
+tests/test_power_plant.py::test_split_data PASSED                        [ 50%]
+tests/test_power_plant.py::test_train_models PASSED                      [ 75%]
+tests/test_power_plant.py::test_evaluate_predictions PASSED              [100%]
+
+============================== 4 passed in 3.14s ===============================
+
+Exit Code: 0
