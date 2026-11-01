@@ -55,6 +55,7 @@ The main steps are:
 9. Evaluate the selected models on the independent test set.
 
 The selected decision tree uses a maximum depth of 8.
+Depth 8 was selected because it achieved the lowest validation RMSE among the tested depths, while maintaining lower model complexity than deeper alternatives.
 
 ## 4. Final Test Results
 
@@ -92,6 +93,14 @@ The project uses Python and the following libraries:
 The Jupyter notebooks were developed using Google Colab.
 
 ## 7. How to Run the Project
+
+### Install Dependencies
+
+From the repository root directory, run:
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Jupyter Notebooks
 
@@ -138,7 +147,7 @@ The model should not be treated as a validated real-time power plant control sys
 
 ## 9. AI Assistance
 
-ChatGPT was used to assist with project planning, explanations, code and documentation drafting, and troubleshooting.
+ChatGPT made a substantial contribution to initial Python code development, project planning, debugging, and documentation and report drafting. I was responsible for selecting the project topic, executing and reviewing the code, interpreting results, and refining and integrating the final work.
 
 The computational results were checked through model evaluation, visualisations, and unit tests.
 
@@ -149,5 +158,6 @@ Further discussion of AI use, verification, and limitations is provided in the p
 Dataset: Combined Cycle Power Plant
 
 Source: UCI Machine Learning Repository
+Dataset DOI: https://doi.org/10.24432/C5002N
 
 The original dataset is attributed to its respective creators. The licensing of project code does not alter the original dataset's terms.
